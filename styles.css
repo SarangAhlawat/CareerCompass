@@ -139,6 +139,7 @@
 .hrbtn1, .hrbtn2{
     margin: 2rem;
     width: 10rem;
+    background-color: blanchedalmond;
 }
 .hrbtn2:hover{
     width: 12rem;
