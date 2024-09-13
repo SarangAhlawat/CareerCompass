@@ -10,8 +10,9 @@
     background-image: url(main_img.jpg);
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(54, 54, 54, 0.4);
     box-shadow: 0 23px 20px rgba(0, 0, 0, 0.3);
+
 
 }
 
@@ -20,8 +21,9 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20vmin;
+    margin-top: 30vmin;
     font-family: sans-serif;
+
 }
 
 .nav-bar {
@@ -181,7 +183,9 @@
 .mentorship:hover, .career-ass:hover, .skill-gui:hover, .college-src:hover {
     transform: scale(1.05);
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -257,9 +261,12 @@ body {
     position: relative;
     margin: 6rem;
     margin-top: 25rem;
+    height: 20rem;
+    background-color: #e7e6e6;
+    border-radius: 2rem;
 }
 .contact-info{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 body{
     background-color: beige;
